@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ultranauts-automation" target="14" />
+      <module name="ultranauts-automation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
