@@ -1,0 +1,9 @@
+/.idea/*
+*.class
+*.log
+*.jar
+*.iml
+.idea*
+build/*
+target/*
+/target/

@@ -11,8 +11,9 @@ public class FinishPage extends PageHelper {
     public FinishPage(WebDriver webDriver) {
         super(webDriver);
     }
-    public boolean getImage()  {
-       checkImage(ponyExpressImgEle);
-       return true;
+
+    public boolean getImage() {
+        checkImage(ponyExpressImgEle);
+        return true;
     }
 }
