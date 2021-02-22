@@ -24,9 +24,7 @@ public class CheckoutTest extends TestHelper {
         String totalPrice = checkoutOverviewPage.getTotalPrice();
         Assert.assertEquals("Total amount is not match", "Total: $60.45", totalPrice);
         checkoutOverviewPage.clickOnFinish();
-        if (new FinishPage(driver).getImage()) {
-            Assert.assertTrue("Test is fail", true);
-        }
+        Assert.assertTrue("Test is fail", new FinishPage(driver).getImage());
     }
 
     @Test
